@@ -1,0 +1,30 @@
+user {
+    "_id",
+}
+
+transaction {
+}
+
+product {
+    "_id" : int,
+    "product_name" : string,
+    "photo" : bin,
+    "store_id" : int,
+    "brand_id" : int,
+    "tags" : array[string],
+    "desc" : string,
+    "price_history" : array???,
+    "last_reported_price" : int,
+    "stock" : int,
+    "price_function" : ???
+}
+
+brand {
+    "_id" : int,
+    "name" : string
+}
+
+store {
+    "_id" : int,
+    "name" : string
+}
