@@ -4,7 +4,7 @@
 * `src/static/` contains index.html and the javascript code for sending http requests
 
 ## Setup
-* Start an instance of mongo by running `mongod --dbpath ./db`; this initializes files in the directory `./db`. To clear all database files, you can remove everything in the db directory: `rm -r ./db/*`.
+* Start an instance of mongo by running `mongod --dbpath ./db`; this initializes files in the directory `./db`. To clear all database files, you can remove everything in the db directory: `rm -r ./db/*`. NOTE: the `db/` top-level directory should actually exist; if not, you should create it.
 * Start an instance of the python flask server by running `python server.py` from the `src/` directory.
 Both instances should be active in order to accept requests.  
 
